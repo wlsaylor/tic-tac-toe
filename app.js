@@ -15,7 +15,7 @@ function playGame() {
     const playerO = new Player('O');
     let turn = 0;
 
-    $('button').on('click', function(){
+    $('.game-button').on('click', function(){
         if (turn % 2 === 0) {
             player = playerX;
             $('#turn-header').html("It's O's turn!");
@@ -54,7 +54,7 @@ function playGame() {
         }
     });
 
-    $('#reset').on('click', () => { 
+    $('.reset').on('click', () => { 
         turn = 0;
         $('.game-button').html('');
         $('#turn-header').html("It's X's turn!");

@@ -1,8 +1,13 @@
+body {
+    background-color: #fafafa;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .game-button {
     font-size: 80px;
     padding: 12px;
     border: 1px;
-    background-color: white;
+    background-color: #fafafa;
     height: 150px;
     width: 150px;
 }
