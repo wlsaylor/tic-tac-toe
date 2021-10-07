@@ -62,7 +62,7 @@ function playGame() {
 }
 
 function checkForWin(gridArray, player) {
-    for (grid of gridArray) {
+    for (const grid of gridArray) {
         if (grid.every((v, i, a) => 
             v === a[0] && v !== ''
         )) {
